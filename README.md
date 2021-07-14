@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <a href="https://minaclavero.polotecnologico.ar/">
+  <a href="href="https://makeitreal.camp/">
   <img height=250px src="README.resources/r_mir_js.png"/>
   </a>
 </p>
