@@ -5,12 +5,9 @@ Ingresa una frase> esta es una prueba
 Esta Es Una Prueba
 */
 
-const frase = prompt("Ingrese una frase:")
-let array = frase.split(" ")
-let array2= []
-for (a in array){
-    primera = array[a].slice(0,1).toUpperCase()
-    resto = array[a].slice(1, array[a].length)
-    array2[a] = (primera + resto)
+let frase = prompt("Ingrese una frase:").split(" ")
+
+for (a in frase){
+    frase[a] = (frase[a].slice(0,1).toUpperCase() + frase[a].slice(1, frase[a].length))
 }
-console.log(array2.join(" "))
+console.log(frase.join(" "))
