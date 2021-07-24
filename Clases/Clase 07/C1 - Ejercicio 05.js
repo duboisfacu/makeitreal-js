@@ -11,6 +11,7 @@ console.log(frecuencias("anita lava la tina"));
 // { a: 6, n: 2, i: 2, t: 2, l: 2, v: 1 }
 */
 
+
 function frecuencias(string){
     let obj = {}
     str = string.split("")
